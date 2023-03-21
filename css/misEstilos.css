@@ -1,0 +1,230 @@
+.colores{
+	color:#15133C; /* AZUL */
+	color:#73777B; /* GRIS */
+	color:#EC994B; /* NARANJA */
+	color:#F1EEE9; /* GRIS CLARO */
+}
+.leyenda{
+	font-family: 'Dancing Script', cursive;
+}
+body{
+	background-image:url("../imagen/bgText1.jpeg");
+}
+
+.azul{
+	color: #15133C;
+}
+.gris{
+	color: #73777B;
+}
+.naranja{
+	color: #EC994B;
+}
+.cabecera{
+
+}
+.barraIzq{
+	position: absolute;
+	background: #15133C;
+	height: 4rem;
+}
+.cinta{
+	background: #eee;
+	height: 12rem;
+	position: relative;
+}
+.cinta figure{
+	position: absolute;
+	top: -2rem;
+	overflow: hidden;
+}
+.titulo{
+	font-family: 'Great Vibes', cursive;
+}
+.fotoInicio::after{
+	content: " ";
+	position: absolute;
+	width: 50%;
+	height: 4rem;
+	background: #15133C;
+	top: 6rem;
+	right: -112px;
+	box-shadow: -3px 3px 3px #444;
+}
+.fotoInicio::before{
+	content: " ";
+	position: absolute;
+	width: 50%;
+	height: 4rem;
+	background: #15133C;
+	top: 6rem;
+	left: -112px;
+	box-shadow: 3px 3px 3px #444;
+}
+.fotoInicio img{
+	border: 2px solid #EC994B;
+}
+article hr{
+	border: 1px solid #EC994B;
+}
+.frase1{
+	font-size: 25px;
+}
+h2{
+	letter-spacing: 2px;
+}
+.fecha{
+	font-size: 25px;
+	background: #15133C;
+	color: #F1EEE9;
+}
+
+.mapa{
+	border: 5px solid #15133C;
+}
+.direccion{
+	background: #15133C !important;
+}
+.direccion:hover{
+	background: #EC994B !important;
+}
+.titulo-mesa{
+	font-size: 20px;
+}
+.footer{
+	background: #15133C;
+	border-top: 10px solid #73777B;
+	height: 4rem;
+}
+.btn-amazon{
+	background: #000 !important;
+	border:1px solid #EC994B;
+}
+.btn-liver{
+	background: #D0307C !important;
+	border:1px solid #EC994B;
+}
+.carousel-item img{
+	margin: 0 auto;
+}
+.novios{
+	margin: 0 auto;
+}
+.img-mesas{
+	/* background-image: url("https://cdn0.matrimonio.com.co/articles/images/7/9/3/3/img_3397/mesa-con-decoracin-blanco-y-negro.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position-y:56% ;*/
+	height: 10rem;
+	height: 33vh;
+background-image: url('../imagen/mesa.jpg');
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 50% 35%;
+}
+.img-regalos{
+	height: 10rem;
+	height: 33vh;
+background-image: url('../imagen/regalos.jpg');
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 50% 35%;
+}
+
+/* asignacion */
+.tit-asig{
+	border-top: 20px solid #15133C;
+    text-shadow: 0px 5px 6px #777;
+    border-radius: 70px;
+}
+.cont-mesas .card{
+    box-shadow: 2px 5px 10px #444
+}
+.cont-mesas{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.fam{
+	font-size: 25px;
+}
+.cont-fam{
+	border-bottom: 1px solid;
+}
+.cont-fam span{
+	background:#EC994B ;
+}
+.miembros{
+	font-size: 20px;
+}
+.lista-mesa{
+	height: 100%;
+	justify-content: center;
+}
+
+
+.pin img{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	right: 42%;
+	top: -15px;
+}
+/* .pin::after {
+  background-color: rgba(255, 255, 255, 1);
+  content: '';
+  height: 45%;
+  width: 12%;
+  position: absolute;
+  top: 4%;
+  left: 15%;
+  border-radius: 50%;
+  transform: rotate(40deg);
+}
+
+.pin::before{
+	content: '';
+	position: absolute;
+	height: 10px;
+	border: 1px solid #000;
+	left: 10px;
+	top: 20px;
+} */
+
+/* Movil */
+
+@media (max-width:500px){
+	.cinta{
+		height: 10rem;
+	}
+	.cinta figure{
+		top: -1.5rem;
+	}
+	.fotoInicio img {
+		width: 200px;
+	}
+	.fotoInicio::after{
+		top: 5rem;
+		right: -82px;
+	}
+	.fotoInicio::before{
+		top: 5rem;
+		left: -82px;
+	}
+	.fecha{
+		font-size: 20px;
+	}
+	.mapa{
+		width: 350px;
+		height: 200px;
+	}
+	.img-mesas{
+		height: 23vh;
+	}
+	.img-regalos{
+		height: 23vh;
+	}
+}
