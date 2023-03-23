@@ -8,7 +8,8 @@
 	font-family: 'Dancing Script', cursive;
 }
 body{
-	background-image:url("../imagen/bgText1.jpeg");
+	background-image:url("../imagen/fondo1.jpg");
+	background-size: 100%;
 }
 
 .azul{
@@ -39,7 +40,7 @@ body{
 	overflow: hidden;
 }
 .titulo{
-	font-family: 'Great Vibes', cursive;
+
 }
 .fotoInicio::after{
 	content: " ";
@@ -92,7 +93,7 @@ h2{
 	font-size: 20px;
 }
 .footer{
-	background: #15133C;
+	background: #EC994B;
 	border-top: 10px solid #73777B;
 	height: 4rem;
 }
